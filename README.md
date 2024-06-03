@@ -10,5 +10,4 @@ Introduction
 Repository Structure
 How to Use This Repository
 Contributing
-License
 Contact
