@@ -58,16 +58,16 @@ error in an existing explanation, please follow these steps:
 
 ## Commit and push: 
 ```  Commit your changes and push them to your fork. ```
-```---------> git add .
-```---------> git commit -m "Added explanation for function XYZ"
-```---------> git push origin add-function-explanation
-```---------> Submit a pull request: Open a pull request on the original repository to merge your changes. '''
+``` git add .
+``` git commit -m "Added explanation for function XYZ"
+``` git push origin add-function-explanation
+``` Submit a pull request: Open a pull request on the original repository to merge your changes. '''
 ```
 
 
 ## Contact
 
-If you have any questions, suggestions, or feedback, feel free to open an issue or contact the repository maintainers.
-Thank you for visiting the Golang Package Function Explanations repository! We hope this resource helps you better understand and utilize the Golang package in your projects.
-This detailed description covers all essential aspects of the repository, making it easy for users to understand its purpose, structure, and how to contribute.
+- If you have any questions, suggestions, or feedback, feel free to open an issue or contact the repository maintainers.
+- Thank you for visiting the Golang Package Function Explanations repository! We hope this resource helps you better understand and utilize the Golang package in your projects.
+- This detailed description covers all essential aspects of the repository, making it easy for users to understand its purpose, structure, and how to contribute.
 ```
