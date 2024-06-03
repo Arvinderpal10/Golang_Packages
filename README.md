@@ -1,18 +1,19 @@
-Title
-===
-Abstract:xxx
-## Papar Information
-- Title:  `paper name`
-- Authors:  `A`,`B`,`C`
-- Preprint: [https://arxiv.org/abs/xx]()
-- Full-preprint: [paper position]()
-- Video: [video position]()
+Golang Packages in Detail :
 
-## Install & Dependence
-- python
-- pytorch
-- numpy
+Welcome to the Golang Package Function Explanations repository! This repository aims to provide comprehensive and detailed explanations for each function in the Golang package, 
+making it easier for developers to understand and utilize the package effectively.
 
+## Table of Contents
+- Introduction
+- Repository Structure
+- How to Use This Repository
+- Contributing
+- Contact
+  
+## Introduction
+The Go programming language, commonly known as Golang, offers a rich standard library with numerous packages. Understanding each function within these packages can be challenging, 
+especially for beginners. This repository breaks down each function in the Golang package, explaining its purpose, usage, parameters, return values, and providing examples where 
+applicable.
 ## Dataset Preparation
 | Dataset | Download |
 | ---     | ---   |
@@ -38,6 +39,18 @@ Abstract:xxx
 
 
 ## Directory Hierarchy
+golang-package-explanations/
+├── README.md
+├── package-name/
+│   ├── function1.md
+│   ├── function2.md
+│   ├── function3.md
+│   └── ...
+└── examples/
+    ├── function1_example.go
+    ├── function2_example.go
+    ├── function3_example.go
+    └──
 ```
 ```
 ## Code Details
