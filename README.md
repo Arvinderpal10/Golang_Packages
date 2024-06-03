@@ -39,18 +39,18 @@ applicable.
 
 
 ## Directory Hierarchy
-golang-package-explanations/
-├── README.md
-├── package-name/
-│   ├── function1.md
-│   ├── function2.md
-│   ├── function3.md
-│   └── ...
-└── examples/
-    ├── function1_example.go
-    ├── function2_example.go
-    ├── function3_example.go
-    └──
+```golang-package-explanations/
+```├── README.md
+```├── package-name/
+```│   ├── function1.md
+```│   ├── function2.md
+```│   ├── function3.md
+```│   └── ...
+```└── examples/
+``` ├── function1_example.go
+``` ├── function2_example.go
+``` ├── function3_example.go
+``` └──
 ```
 ```
 ## Code Details
