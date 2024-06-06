@@ -19,16 +19,14 @@ applicable.
 The repository is organized as follows:
 ```golang-package-explanations/ 
 ```├── README.md
-```├── package-name/
-```│   ├── function1.md
-```│   ├── function2.md
-```│   ├── function3.md
-```│   └── ...
-```└── examples/
-``` ├── function1_example.go
-``` ├── function2_example.go
-``` ├── function3_example.go
-``` └──
+```├── pkg/
+```│   ├── package1
+```│      ├── function1.go
+```│      ├── function2.go
+```│   ├── package2
+```│      ├── function1.go
+```│      ├── function2.go
+```|      ...
 ```
 
 ## How to use this repository
