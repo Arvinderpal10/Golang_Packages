@@ -17,16 +17,17 @@ applicable.
 
 ## - Repository Structure
 The repository is organized as follows:
-```golang-package-explanations/ 
-```├── README.md
-```├── pkg/
-```│   ├── package1
-```│      ├── function1.go
-```│      ├── function2.go
-```│   ├── package2
-```│      ├── function1.go
-```│      ├── function2.go
-```|      ...
+```
+golang-package-explanations/ 
+├── README.md
+├── pkg/
+│   ├── package1
+│      ├── function1.go
+│      ├── function2.go
+│   ├── package2
+│      ├── function1.go
+│      ├── function2.go
+|      ...
 ```
 
 ## How to use this repository
