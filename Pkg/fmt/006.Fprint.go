@@ -15,13 +15,15 @@ func main() {
 	}
 	//Closing file before the function exits
 	defer file.Close()
-	_, err = fmt.Fprint(file, "Hello! My name is Arvinder")
+	var name string = "Arvinder"
+	var age int = 30
+	_, err = fmt.Fprint(file, "Hello! My name is ", name, ". I am ", age, " years old")
 	if err != nil {
 		fmt.Print("Error writin to file.", err)
 	}
 
 	/*
-		Output : Hello! My name is Arvinder --> Will be written to file (example.txt)
+		Output : Hello! My name is Arvinder. I am 30 years old --> Will be written to file (example.txt)
 	*/
 
 	fmt.Print(`
@@ -29,7 +31,9 @@ func main() {
 	`)
 
 	var buffer bytes.Buffer
-	_, err = fmt.Fprint(&buffer, "Hello! My name is Arvinder")
+	var myName string = "Arvinder"
+	var myAge int = 30
+	_, err = fmt.Fprint(&buffer, "Hello! My name is ", myName, ". I am ", myAge, " years Old.")
 	if err != nil {
 		fmt.Print("Error in writing  to buffer", err)
 	}
@@ -38,12 +42,12 @@ func main() {
 
 	// Output :
 	//----------- Writing to a Buffer ---------------
-	// Hello! My name is Arvinder.
+	// Hello! My name is Arvinder. I am 30 years Old.
 
 }
 
 /*
-Fprint is a function in the fmt package in Go that formats its arguments using the default
+Fprint is a function in the fmt package in Go that formats (based on default format) its arguments using the default
 formats and writes the result to a specified io.Writer. This function is useful for writing
 formatted output to files, network connections, or other output streams.
 
