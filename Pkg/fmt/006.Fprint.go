@@ -8,22 +8,20 @@ import (
 
 func main() {
 
-	file, err := os.Create("example.txt")
+	file, err := os.Create("./006.example.txt")
 	if err != nil {
 		fmt.Print("Error in creating new file.", err)
 		return
 	}
 	//Closing file before the function exits
 	defer file.Close()
-	var name string = "Arvinder"
-	var age int = 30
-	_, err = fmt.Fprint(file, "Hello! My name is ", name, ". I am ", age, " years old")
+	_, err = fmt.Fprint(file, "Hello! My name is Arvinder")
 	if err != nil {
 		fmt.Print("Error writin to file.", err)
 	}
 
 	/*
-		Output : Hello! My name is Arvinder. I am 30 years old --> Will be written to file (example.txt)
+		Output : Hello! My name is Arvinder --> Will be written to file (example.txt)
 	*/
 
 	fmt.Print(`
@@ -31,9 +29,7 @@ func main() {
 	`)
 
 	var buffer bytes.Buffer
-	var myName string = "Arvinder"
-	var myAge int = 30
-	_, err = fmt.Fprint(&buffer, "Hello! My name is ", myName, ". I am ", myAge, "years Old.")
+	_, err = fmt.Fprint(&buffer, "Hello! My name is Arvinder")
 	if err != nil {
 		fmt.Print("Error in writing  to buffer", err)
 	}
@@ -42,7 +38,7 @@ func main() {
 
 	// Output :
 	//----------- Writing to a Buffer ---------------
-	// Hello! My name is Arvinder. I am 30years Old.
+	// Hello! My name is Arvinder.
 
 }
 
