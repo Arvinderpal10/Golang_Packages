@@ -36,3 +36,14 @@ func main() {
 	}
 
 }
+
+/*
+-> Fscan in Go is a function from the fmt package used to read space-separated values from an io.Reader
+and store them into successive arguments. This is useful for parsing structured data from sources
+like files or network connections.
+
+
+-> fmt.Fscan reads successive space-separated values from the provided io.Reader and stores
+them in successive arguments.
+-> It returns the number of items successfully scanned and an error, if any.
+*/
